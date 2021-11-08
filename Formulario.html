@@ -4,77 +4,79 @@
         <title>Formulario</title>
     </head>
     <body>
-        <h1> Festival de cine fantastico y de terror
-		</h1>
-		<br>
-	<nav>
-			<a href="index.html">INICIO</a>
-			<a href="archivo.html">ARCHIVO</a>	
+		<div style="background-color:LightGoldenRodYellow">
+			<h1 style="color:black"> Festival de cine fantastico y de terror</h1>
+		<h6><p>Toda la información contenida en está web no es fiable ni veraz, el único objetivo de esta web es su evaluación como ejercicio de la asignatura de lenguaje de marcas del FP ASIR de la plataforma <a href="https://www.birt.eus/">birtLH</a></p></h6>
+		<h6><p>He utilizado la siguiente web como referencia para hacer este ejercicio:<a href="https://www.sansebastianhorrorfestival.eus/2021/">sansebastianhorrorfestival</a></p></h6>
+		<nav>
+			<div style="background-color:LightGreen">
+			<h1><a href="index.html">INICIO</a>
+			<a href="archivo.html">ARCHIVO</a>
 			<a href="peliculas.html">PELICULAS</a>
-			<a href="prensa.html">PRENSA</a>
-			<a href="Formulario.html">VOTACION</a>
+			<a href="noticias.html">NOTICIAS</a>
+			<a href="Formulario.html">VOTACION</a></h1>
+			</div>
 		</nav>
-		<br>
-	<h2> VOTACION
-	</h2>
-	<br>
-        <h3>Votación del Festival de cine</h3>
+        <h2 style="color:#808080">VOTACION
+	    </h2>
+        <h3 style="font-family:verdana;">Votación del Festival de cine</h3>
         <form action="mailto:ejemplo@ejemplo.com" method="post">
-		<table border="0" height="400">
-		<tr><td>
-            <b>Nombre:</b> <input name="Nombre" type="text">
-            <b>Apellidos:</b> <input name="Apellidos" type="text">
-            <b>Sexo:</b> <input name="Sexo" type="radio">M
-            <input name="Sexo" type="radio">H
-        </td></tr>
-		<tr><td>
-            <b>Votación del festival:</b>
-            <select>
-                <option selected="selected">Largometraje</option>
-                <option>APPS</option>
-                <option>BELLE</option>
-                <option>MAS ALLA DE LOS DOS MINUTOS INFINITOS</option>
-                <option>LA CABINA</option>
-                <option>CAVEAT</option>
-                <option>CENSOR</option>
-                <option>CRYPTOZOO</option>
-                <option>DEAD & BEAUTIFUL</option>
-            </select>
-            <select>
-                <option selected="selected">cortometraje</option>
-                <option>Dora</option>
-                <option>Incarnation</option>
-                <option>Les monstres</option>
-                <option>Night of the Living Dicks</option>
-                <option>Part Forever</option>
-                <option>Snowdevil</option>
-                <option>The Thing That Ate the Birds</option>
-                <option>They're Here</option>
-            </select>   
-            <select>
-                <option selected="selected">cortometraje de animación</option>
-                <option>Cyan Eyed</option>
-                <option>Los días que (nunca) fueron</option>
-                <option>The Expected</option>
-                <option>Little Miss Fate</option>
-                <option>Mum’s Sweater</option>
-                <option>Ronde de nuit</option>
-                <option>Swallow the Universe</option>
-                <option>Them</option>
-            </select>
-<br>
-<br>
-            <b>Películas favoritas fuera del certamen:</b>
-		<tr><td>
-            <textarea rows="4" cols="50"></textarea>
-            	 </td></tr>
-		<tr><td>
-			 <input type="Submit" value="Enviar">
-            <input name="Reset" type="reset">
-			 </td></tr>
-		</table>
+			<table border="5" height="300">
+				<tr><td>
+					<b>Nombre:</b> <input name="Nombre" type="text">
+					<b>Apellidos:</b> <input name="Apellidos" type="text">
+					<b>Sexo:</b> <input name="Sexo" type="radio">M
+					<input name="Sexo" type="radio">H
+				</td></tr>
+				<tr><td>
+					<b>Votación del festival:</b>
+					<select>
+						<option selected="selected">Largometraje</option>
+						<option>APPS</option>
+						<option>BELLE</option>
+						<option>MAS ALLA DE LOS DOS MINUTOS INFINITOS</option>
+						<option>LA CABINA</option>
+						<option>CAVEAT</option>
+						<option>CENSOR</option>
+						<option>CRYPTOZOO</option>
+						<option>DEAD & BEAUTIFUL</option>
+					</select>
+					<select>
+						<option selected="selected">cortometraje</option>
+						<option>Dora</option>
+						<option>Incarnation</option>
+						<option>Les monstres</option>
+						<option>Night of the Living Dicks</option>
+						<option>Part Forever</option>
+						<option>Snowdevil</option>
+						<option>The Thing That Ate the Birds</option>
+						<option>They're Here</option>
+					</select>   
+					<select>
+						<option selected="selected">cortometraje de animación</option>
+						<option>Cyan Eyed</option>
+						<option>Los días que (nunca) fueron</option>
+						<option>The Expected</option>
+						<option>Little Miss Fate</option>
+						<option>Mum’s Sweater</option>
+						<option>Ronde de nuit</option>
+						<option>Swallow the Universe</option>
+						<option>Them</option>
+					</select>
+				</td></tr>			
+				<tr><td>
+					<b>Películas favoritas fuera del certamen:</b>
+					<br>
+					<br>
+					<textarea rows="5" cols="100"></textarea>
+				</td></tr>
+				<tr><td>
+					<input type="Submit" value="Enviar">
+					<input name="Reset" type="reset">
+				</td></tr>
+			</table>
         </form>        
         <p><b>Pulsa el botón de "enviar" para formalizar la votación o "restablecer" para limpiar el formulario.</b></p>
-<!--Está web contiene un formulario para votar las mejores peliculas del festival-->
-</body>
+	<!--Está web contiene un formulario para votar las mejores peliculas del festival-->
+	</body>
 </html>
