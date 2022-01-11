@@ -1,1 +1,10 @@
-pruebas
+head  {border: 2px solid red;border-radius: 25px;color: green;}
+title {border: 2px solid red;border-radius: 25px;color: green;}
+h1 {border: 2px solid red;border-radius: 25px;color: green;}
+h2 { color: green;font-size: 30px;text-align: center;}
+h3 { color: pink;font-size: 40px;font-family:verdana;}
+h6 { color: blue;  font-size: 15px;}
+a { color: lightblue;  font-size: 25px;}
+p { color: orange; font-family: Verdana; }
+body {background-color: blue;}
+div {background-color:LightGoldenRodYellow;}
